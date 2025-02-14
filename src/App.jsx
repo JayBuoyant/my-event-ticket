@@ -29,7 +29,7 @@ const App = () => {
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
       }}>
         <Header/>
-        <BrowserRouter>
+        <BrowserRouter basename='comforting-tiramisu-01d78b.netlify.app/' >
           <Routes>
             <Route path = "/" element={<Home/>}/>
             <Route path = "/AttendeeDetails" element={<AttendeeDetails/>}/>
